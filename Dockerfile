@@ -1,5 +1,5 @@
 FROM openjdk:alpine
-ENV FOO bar
+ENV FOO barz
 WORKDIR /home/root/javahelloworld
 COPY src/ src/
 RUN mkdir bin
